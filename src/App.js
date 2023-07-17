@@ -1,5 +1,4 @@
-import React, { useEffect, memo, useState } from "react";
-import { HelmetProvider } from "react-helmet-async";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HomePage from "./containers/HomePage/Loadable";
@@ -16,12 +15,6 @@ function App() {
 
   return (
     <div className="App">
-      <HelmetProvider titleTemplate="EDI" defaultTitle="EDI">
-        <meta
-          name="description"
-          content="An application that helps doctors communicate with their patients who don't speak English"
-        />
-      </HelmetProvider>
       <Header />
       <Router>
         <Routes>
