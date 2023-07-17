@@ -26,7 +26,10 @@ function Footer() {
           padding: "0 1em",
         }}
       >
-        <section>Created by Med students</section>
+        <section>
+          Created by the following Med Students @ UOttawa: Eileen, Eimaan, Hadi,
+          and Sarah
+        </section>
         <section></section>
         <section>
           Developed by{" "}
