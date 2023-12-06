@@ -60,7 +60,7 @@ export function HomePage({ setSelectedTag, setSelectedLanguage }) {
               color="text.primary"
               gutterBottom
             >
-              EDI
+              Medical Translation Website
             </Typography>
             <Typography
               variant="h5"

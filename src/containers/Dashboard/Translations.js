@@ -40,7 +40,7 @@ export default function Translations({ language, tags }) {
         <Table size="small">
           <TableHead>
             <TableRow>
-              <TableCell>Englsh</TableCell>
+              <TableCell>English</TableCell>
               <TableCell>{language} - Roman</TableCell>
               <TableCell>Symptoms</TableCell>
             </TableRow>
